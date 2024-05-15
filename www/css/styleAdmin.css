@@ -1,0 +1,92 @@
+.admin-container{
+    position: absolute;
+    top: 12em;
+    left: 25em;
+    background-color: white;
+    height: 20em;
+    width: 35em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 200px;
+}
+.admin-container button{
+    width: 8em;
+    height: 6em;
+}
+/* .navigation-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 25px;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 50px;
+}
+.navigation-bar a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #334856;
+} */
+.main-page-admin{
+    background-color: #ebf2f9;
+    height: 100em;
+    width: 94.9em;
+    padding: 200px;
+}
+.right-side{
+    padding: 20px;
+    height: 18em;
+    width: 15em;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    right: 75em;
+    top: 6.7em;
+}
+#interfaceDropdown{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.right-side h2{
+    color: rgba(255, 255, 255, 0.716);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+#annonce-page-formula{
+    height: 31em;
+    width: 72em;
+    position: absolute;
+    top: 4.7em;
+    left: 14em;
+    background-color: #ebf2f9;
+    padding: 60px;
+}
+#contentContainer{
+    height: 31em;
+    width: 60em;
+    position: absolute;
+    top: 6.7em;
+    left: 25em;
+    background-color: white;
+    border-radius: 15px;
+    padding: 60px;
+}
+#contentContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: baseline; 
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Merienda', cursive;
+}
+body{
+    background-color: #E7EDF9;
+}
+
+form{
+    position: absolute;
+    top: 58px; 
+    left: 500px; 
+    height: 54em;
+    width: 80em;
+    padding: 30px;
+    line-height: 4; 
+    font-size: 20px;
+  
+}
+form input{
+    height: 53px;
+    width: 550px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.forumulaire_1 input{
+    margin-left: 130px;
+
+} 
+.forumulaire_2 input{
+    margin-left: 205px;
+} 
+.forumulaire_3 input{
+    margin-left: 144px;
+} 
+.forumulaire_4 input{
+    margin-left: 30px;
+} 
+.forumulaire_5 input{
+    margin-left: 63px;
+} 
+.forumulaire_6 input{
+    margin-left: 170px;
+} 
+.forumulaire_7 input{
+    margin-left: 60px;
+} 
+
+.button{
+    margin-left: 170px;
+    background-color: #3498db;
+    color: blue;
+    height: 50px;
+    padding: 10px 20px; 
+}
+.button:hover{
+    background-color: white;
+    cursor: pointer;
+}  
+form button{
+    margin-left: 90px;
+}

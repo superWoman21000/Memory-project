@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;  
+    justify-content: center;
+    align-items: center; /*to position the containers i the center of the page: ;*/
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    margin: 40px;
+    padding-bottom: 80px;
+    height: 38em;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image_container h2{
+    font-size: 3em;
+    text-align: center;
+    margin-top: -140px;
+    position: absolute;
+    top: 13.5em;
+    left: 5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2D2D2D;
+}
+.image_container img{
+    flex: 1;
+    width: 700px;
+    margin: 200px;
+    margin-top: 100px;
+    position: absolute;
+    top: -2em;
+    left: -4em;
+}
+.login_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 200px; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 7em;
+    left: 60em;
+    
+
+}
+.login_container h1{
+    font-size: 4em;
+    align-self: center;
+    transform: translateY(-90px);
+    margin-left: -400px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1em;
+    left: 5.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2D2D2D;
+}
+.login_container label{
+   font-size: 1.6em;
+   font-weight: 900;
+   margin-bottom: 15px;
+   font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #2D2D2D;
+}
+.submit input{
+    margin-top: 20px;
+    background-color: #FEC24A;
+    border-radius: 5px;
+    font-size: 1.8em;
+    font-weight: 900;
+    width: 315px;
+    height: 50px;
+    color: #2D2D2D;
+}
+.submit input:hover{
+    background-color: #8b7bdb;
+}
+.login_container input{
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2D2D2D;
+}
+.username_box input{
+    width: 325px;
+    height: 40px;
+    color: #2D2D2D;
+}
+.password_box input{
+    width: 325px;
+    height: 40px;
+}
+.username_box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.password_box{
+    display: flex;
+    flex-direction: column;
+}

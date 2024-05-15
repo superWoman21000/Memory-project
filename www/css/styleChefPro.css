@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Merienda', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('bureau.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+aside {
+    position: absolute;
+    left: 0; /* Aligner l'aside sur le côté gauche */
+    top: 65px;
+    height: 100%; /* Hauteur de 80% de la hauteur de son conteneur parent */
+    width: 300px;
+    background-color: rgb(110, 174, 213);
+
+}
+/* CSS for modal window */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.search-container {
+    position: relative;
+}
+
+.suggestions-list {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure suggestions list appears above other elements */
+}
+
+.suggestions-list li {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
+}
+
+aside img
+{
+    margin-top: 130px;
+    width: 300px;
+    height: 220px;
+}
+.choix
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace, Times, serif;
+    font-size: 20px;
+    font-style: inherit;
+    color:white;
+    margin-left: 5px;
+    cursor: pointer; 
+
+}
+.choix:hover{
+    color: aqua;
+    font-weight: bold;
+}
+.choix:active{
+    background-color:rgb(57, 32, 171);
+}
+.right-zone {
+    position: absolute;
+    top: 75px; /* Assurez-vous que la zone est positionnée sous l'en-tête */
+    right: 0; /* Alignez la zone sur le côté droit de la page */
+    width: 300px; /* Définissez la largeur de la zone */
+    height: 5px /* La hauteur de la zone est la hauteur de la fenêtre moins la hauteur de l'en-tête */
+}
+.search-input{
+    width: 300px; /* Largeur de la zone de recherche */
+    height: 30px; /* Hauteur de la zone de recherche */
+    border-radius: 30px; /* Définir le rayon du cercle pour que la zone soit un cercle */
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur de fond de la zone avec une opacité de 50% */
+    position: absolute; /* Position absolue pour placer la zone où vous le souhaitez */
+    top: 20px; /* Position verticale au centre */
+    left: 50px; /* Position horizontale au centre */
+    transform: translate(-60%, -50%); /* Centrer la zone de recherche */
+}
+
+.search-button{
+    width: 90px; /* Largeur de la zone de recherche */
+    height: 30px; /* Hauteur de la zone de recherche */
+    border-radius: 30px;
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    background-color: #5757dd;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: aqua;
+}
+ 
+ 

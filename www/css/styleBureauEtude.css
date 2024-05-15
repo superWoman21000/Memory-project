@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Merienda', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('img/burEt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Merienda', cursive;
+}
+
+aside {
+    position: absolute;
+    left: 0; /* Aligner l'aside sur le côté gauche */
+    top: 65px;
+    height: 100%; /* Hauteur de 80% de la hauteur de son conteneur parent */
+    width: 250px;
+    background-color: #1717d057;
+
+}
+aside img
+{
+    margin-top: 130px;
+    width: 250px;
+    height: 200px;
+}
+.choix:hover{
+    color: aqua;
+    font-weight: bold;
+}
+.choix:active{
+    background-color:rgb(57, 32, 171);
+}
+.right-zone {
+    position: absolute;
+    top: 87px; /* Assurez-vous que la zone est positionnée sous l'en-tête */
+    right: 0; /* Alignez la zone sur le côté droit de la page */
+    width: 300px; /* Définissez la largeur de la zone */
+    height: 5px /* La hauteur de la zone est la hauteur de la fenêtre moins la hauteur de l'en-tête */
+}
+.search-input{
+    width: 300px; /* Largeur de la zone de recherche */
+    height: 30px; /* Hauteur de la zone de recherche */
+    border-radius: 30px; /* Définir le rayon du cercle pour que la zone soit un cercle */
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur de fond de la zone avec une opacité de 50% */
+    position: absolute; /* Position absolue pour placer la zone où vous le souhaitez */
+    top: 20px; /* Position verticale au centre */
+    left: 50px; /* Position horizontale au centre */
+    transform: translate(-60%, -50%); /* Centrer la zone de recherche */
+}
+
+.search-button{
+    width: 90px; /* Largeur de la zone de recherche */
+    height: 30px; /* Hauteur de la zone de recherche */
+    border-radius: 30px;
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    background-color: #5757dd;
+    cursor: pointer; 
+}
+.search-button:hover{
+    background-color: aqua;
+}
