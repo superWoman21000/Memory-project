@@ -23,20 +23,20 @@
             <h1>Postuler Pour Le Projet</h1>
             <form id="postulerForm" action="Entrepreneur.php" method="post">
                 <div class="formulaire">
-                    <label for="">Nom</label>
-                    <input type="text" name="nom" id="nom">
+                    <label class="w-one-fifth" for="nom">Nom</label>
+                    <input class="w-four-fifth" type="text" name="nom" id="nom">
                 </div>
                 <div class="formulaire">
-                    <label for="">Prenom</label>
-                    <input type="text" name="prenom" id="prenom">
+                    <label class="w-one-fifth" for="prenom"<>Prenom</label>
+                    <input class="w-four-fifth" type="text" name="prenom" id="prenom">
                 </div>
                 <div class="formulaire">
-                    <label for="">Date_de_naissance</label>
-                    <input type="date" name="dateDeNaissance" id="dateDeNaissance">
+                    <label class="w-one-fifth" for="dateDeNaissance">Date_de_naissance</label>
+                    <input class="w-four-fifth" type="date" name="dateDeNaissance" id="dateDeNaissance">
                 </div>
                 <div class="formulaire">
-                    <label for="">Wilaya</label>
-                    <select name="wilaya" id="wilaya">
+                    <label class="w-one-fifth" for="wilaya">Wilaya</label>
+                    <select class="w-four-fifth" name="wilaya" id="wilaya">
                         <option value="1">1. Adrar</option>
                         <option value="2">2. Chlef</option>
                         <option value="3">3. Laghouat</option>
@@ -96,11 +96,10 @@
                         <option value="57">57. Djanet</option>
                         <option value="58">58. Timimoun</option>
                     </select>
-
                 </div>
                 <div class="formulaire">
-                    <label for="">Etat civile</label>
-                    <select name="etatCivile" id="etatCivile">
+                    <label class="w-one-fifth" for="etatCivile">Etat civile</label>
+                    <select class="w-four-fifth" name="etatCivile" id="etatCivile">
                         <option value="1">célibataire</option>
                         <option value="2">marié(e)</option>
                         <option value="">divorcé(e)</option>
@@ -109,8 +108,8 @@
                 </div>  
 
                 <div class="formulaire">
-                    <label for="">Genre</label>
-                    <select name="genre" id="genre">
+                    <label class="w-one-fifth" for="genre">Genre</label>
+                    <select class="w-four-fifth" name="genre" id="genre">
                         <option value="1">féminin</option>
                         <option value="2">masculin</option>
                     </select>
