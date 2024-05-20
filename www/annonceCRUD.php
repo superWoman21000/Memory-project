@@ -4,13 +4,14 @@ class Annonce {
     public $description;
     public $duree;
     private $conn;
+    private $conflict_attribute;
 
     // Constructor to initialize the database connection
     public function __construct() {
         $host = 'mysql-db';
         $user = 'root';
         $pass = 'password';
-        $db = 'projet-memoire';
+        $db = 'projet-memoire-test';
         
         // Create connection
         $this->conn = new mysqli($host, $user, $pass, $db);
